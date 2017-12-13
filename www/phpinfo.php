@@ -1,4 +1,4 @@
-<h1>cdfgdgd  c'est moi PHPINFO</h1>
+<h1>coucou je suis le PHPINFO</h1>
 <?php
 phpinfo();
 ?>
