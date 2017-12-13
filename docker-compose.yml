@@ -1,0 +1,37 @@
+##### Multi phps
+php714:
+  image : php:7.1.4-apache
+  ports :
+   - "20080:80"
+  volumes:
+   - ./www:/var/www/html/
+  env_file:
+    - '.env'
+
+
+php7013:
+  image : php:7.0.25-apache
+  ports :
+   - "20180:80"
+  volumes:
+   - ./www:/var/www/html/
+  env_file:
+    - '.env'
+
+php56:
+  image : php:5.6.28-apache
+  ports :
+   - "20380:80"
+  volumes:
+   - ./www:/var/www/html/
+  env_file:
+    - '.env'
+
+php54:
+  image : php:5.4-apache
+  ports :
+   - "20480:80"
+  volumes:
+   - ./www:/var/www/html/
+  env_file:
+    - '.env'
